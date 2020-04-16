@@ -1,0 +1,163 @@
+baseURL: https://suspicious-agnesi-809fae.netlify.com/
+theme: pure
+title: Ömer Kurt
+defaultContentLanguage: tr  # en/zh/...
+footnoteReturnLinkContents: ↩
+hasCJKLanguage: true
+paginate: 7
+enableEmoji: true
+PygmentsCodeFences: false
+googleAnalytics: ""      # UA-XXXXXXXX-X 
+permalinks: 
+  posts: /:month/:year/:filename/
+publishDir: "omerkurt.dev"
+
+taxonomies:
+    category : categories
+    tag : tags
+    series : series
+outputFormats:          # use for search. recommend not to modify 
+  SearchIndex:
+    mediaType: "application/json"
+    baseName: "searchindex"
+    isPlainText: true
+    notAlternative: true
+
+outputs:
+    home: ["HTML","RSS","SearchIndex"]  # recommend not to modify
+# sitemap
+sitemap:
+  changefreq: monthly
+  filename: sitemap.xml
+  priority: 0.5
+
+menu:
+  main:
+    - identifier: home
+      name: Home
+      title: Ana Sayfa
+      url: /
+      weight: 1
+
+    - identifier: archives
+      name: Archives
+      title: Arşivler
+      url: /posts/
+      weight: 2
+
+    - identifier: categories
+      name: Categories
+      title: Kategoriler
+      url: /categories/
+      weight: 3
+
+    - identifier: tags
+      name: Tags
+      title: Etiketler
+      url: /tags/
+      weight: 4
+
+    - identifier: about
+      name: About
+      title: Hakkımda
+      url: /about/
+      weight: 5
+
+
+params:
+  since: 2017
+  dateFormatToUse: "02-01-2006"
+  enablePostCopyright: false
+  # the directory under content folder that you want to render
+  mainSections: ["posts"]
+  # Enable/Disable menu icons
+  # Icon Reference: http://blog.cofess.com/hexo-theme-pure/iconfont/demo_fontclass.html
+  enableMathJax: true #Enable mathjax support, to use mathematical notations
+  highlightjs:
+    langs: ["python", "javascript"] # refer to http://staticfile.org/, search highlight.js, already have highlight.min.js
+
+  # Allows you to specify an override stylesheet
+  # put custom.css in $hugo_root_dir/static/
+  # customCSS: css/custom.css
+
+  menuIcons:
+    enable: true  # 是否启用导航菜单图标
+    home: icon-home-fill
+    archives: icon-archives-fill
+    categories: icon-folder
+    tags: icon-tags
+    repository: icon-project
+    books: icon-book-fill
+    links: icon-friendship
+    about: icon-cup-fill
+
+  # profile
+  profile:
+    enabled: true # Whether to show profile bar
+    avatar: pp.png
+    gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
+    author: Ömer Kurt
+    author_title: Ömer Kurt
+    author_description: 
+    location: Kayseri, Türkiye
+    follow: https://www.linkedin.com/in/omer-kurt
+    # Social Links
+    social:
+      links:
+        github: https://github.com/ybsci
+        twitter: https://twitter.com/omerkurt000
+        rss: /index.xml
+      link_tooltip: true # enable the social link tooltip, options: true, false
+  # Site
+  site:
+    logo:
+      enabled: true
+      width: 40
+      height: 40
+      url: favicon.ico
+    title: Ömer Kurt # 页面title
+    favicon: favicon.ico
+    board: <p></p> # 公告牌
+
+  # Share
+  # weibo,qq,qzone,wechat,tencent,douban,diandian,facebook,twitter,google,linkedin
+  share:
+    enable: true # 是否启用分享
+    sites: twitter,linkedin # PC端显示的分享图标
+    mobile_sites: twitter,linkedin # 移动端显示的分享图标
+
+  # Comment
+  comment:
+    type:  # type disqus/gitalk/valine 启用哪种评论系统
+    disqus: your_disqus_name # enter disqus shortname here
+ 
+
+
+  # wordcount
+  postCount:
+    enable: true
+    wordcount: true # 文章字数统计
+    min2read: true # read time 阅读时长预计
+
+  # config
+  config:
+    skin: theme-black # theme color default is white. other type [theme-black,theme-blue,theme-green,theme-purple]
+    layout: main-center # main-left main-center main-right
+    excerpt_link: Devamını oku
+    toc: true
+
+  # Sidebar
+  sidebar: right
+
+  # Search
+  search:
+    enable: true # enable search. thanks for https://raw.githubusercontent.com/ppoffice/hexo-theme-icarus/master/source/js/insight.js
+
+  # Sidebar only the following widgets. you can remove any you don't like it.
+  widgets:
+    - board
+    - category
+    - tag
+    - recent_posts
+
+
