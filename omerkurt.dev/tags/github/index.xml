@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Series on Ömer Kurt</title>
-    <link>https://confident-shirley-cd2c5d.netlify.app/series/</link>
-    <description>Recent content in Series on Ömer Kurt</description>
+    <title>Github on Ömer Kurt</title>
+    <link>https://confident-shirley-cd2c5d.netlify.app/tags/github/</link>
+    <description>Recent content in Github on Ömer Kurt</description>
     <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 16 Apr 2020 21:21:35 +0300</lastBuildDate>
     
-        <atom:link href="https://confident-shirley-cd2c5d.netlify.app/series/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://confident-shirley-cd2c5d.netlify.app/tags/github/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
