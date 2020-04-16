@@ -94,7 +94,7 @@ params:
   # profile
   profile:
     enabled: true # Whether to show profile bar
-    avatar: pp.png
+    avatar: Avatar.png
     gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
     author: Ömer Kurt
     author_title: Ömer Kurt
