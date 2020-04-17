@@ -1,5 +1,5 @@
 ---
-title: "Android Linux Mu?"
+title: "Android Linux mu?"
 date: 2020-04-18T00:04:21+03:00
 tags: ["Linux","Android"]
 description: "Android'in Linux tabanlı olup olmadığı ile alakalı savunulan düşünceler."
