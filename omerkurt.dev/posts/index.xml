@@ -5,10 +5,20 @@
     <link>https://www.omerkurt.dev/posts/</link>
     <description>Recent content in Posts on Ömer Kurt</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 18 Apr 2020 00:04:21 +0300</lastBuildDate>
+    <lastBuildDate>Sun, 19 Apr 2020 01:11:51 +0300</lastBuildDate>
     
         <atom:link href="https://www.omerkurt.dev/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Neden Zsh</title>
+      <link>https://www.omerkurt.dev/04/2020/neden-zsh/</link>
+      <pubDate>Sun, 19 Apr 2020 01:11:51 +0300</pubDate>
+      
+      <guid>https://www.omerkurt.dev/04/2020/neden-zsh/</guid>
+      <description>GNU/Linux işletim sistemi kullandıysanız Bash&amp;rsquo;in ne demek olduğunu aslında biliyorsunuz. Bash kabuğu GNU/Linux işletim sisteminde ve MacOS&amp;rsquo;te varsayılan olarak gelmekte. Bash&amp;rsquo;in açılımı ise &amp;ldquo;Bourne Again Shell&amp;rdquo;dir. En popüler kabuk yada komut dili yorumlayıcıları şunlardır:
+ Bash Tcsh/Csh Ksh Zsh Fish  Benim favori kabuğumsa Zsh. Hatta bilgisayarıma format attığım zaman ilk kurduğum şeylerden biri kendisi. Oh My Zsh topluluğu harikalar yaratmış diyebilirim eklentileriyle, sadece eklenti değil temalarıyla da özelleştirebilirsiniz.</description>
+    </item>
     
     <item>
       <title>Android Linux mu?</title>
