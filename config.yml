@@ -62,10 +62,16 @@ menu:
       title: Hakkımda
       url: /about/
       weight: 5
+      
+    - identifier: plan
+      name: Yazı Planım
+      title: Yazı Planım
+      url: https://www.notion.so/e2d2788505b645328b1435a2f2c0d100?v=c3b83f446b304a78802848762a376932
+      weight: 5
 
 
 params:
-  since: 2017
+  since: 2020
   dateFormatToUse: "02-01-2006"
   enablePostCopyright: false
   # the directory under content folder that you want to render
@@ -90,6 +96,7 @@ params:
     books: icon-book-fill
     links: icon-friendship
     about: icon-cup-fill
+    plan: fa-calendar.icon-calendar
 
   # profile
   profile:
@@ -117,7 +124,7 @@ params:
       url: favicon.ico
     title: Ömer Kurt # 页面title
     favicon: favicon.ico
-    board: <p></p> # 公告牌
+    board: <p><a href="https://www.notion.so/e2d2788505b645328b1435a2f2c0d100?v=c3b83f446b304a78802848762a376932">Sayfa</a></p> # 公告牌
 
   # Share
   # weibo,qq,qzone,wechat,tencent,douban,diandian,facebook,twitter,google,linkedin

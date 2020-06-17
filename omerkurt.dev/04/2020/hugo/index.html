@@ -24,7 +24,7 @@
   
   
   <meta name="description" content="Bu yazımda sizlere Hugo ile site kurmayı ve Github’da yayınlamayı anlatacağım" />
-  <meta name="generator" content="Hugo 0.59.1 with theme pure" />
+  <meta name="generator" content="Hugo 0.69.0 with theme pure" />
   <title>Hugo ile Site Oluşturmak - Ömer Kurt</title>
   
   
@@ -40,16 +40,13 @@
 <meta property="article:modified_time" content="2020-04-16T21:21:35+03:00" />
 <meta itemprop="name" content="Hugo ile Site Oluşturmak">
 <meta itemprop="description" content="Bu yazımda sizlere Hugo ile site kurmayı ve Github’da yayınlamayı anlatacağım">
-
-
 <meta itemprop="datePublished" content="2020-04-16T21:21:35&#43;03:00" />
 <meta itemprop="dateModified" content="2020-04-16T21:21:35&#43;03:00" />
 <meta itemprop="wordCount" content="285">
 
 
 
-<meta itemprop="keywords" content="Hugo,Github,Gohugo," />
-<meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="Hugo,Github,Gohugo," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Hugo ile Site Oluşturmak"/>
 <meta name="twitter:description" content="Bu yazımda sizlere Hugo ile site kurmayı ve Github’da yayınlamayı anlatacağım"/>
 
@@ -142,6 +139,11 @@
                   <span class="menu-title">Hakkımda</span>
                 </a>
             </li>
+            <li class="menu-item menu-item-yazı planım">
+                <a href="https://www.notion.so/e2d2788505b645328b1435a2f2c0d100?v=c3b83f446b304a78802848762a376932">
+                  <span class="menu-title">Yazı Planım</span>
+                </a>
+            </li>
         </ul>
       </nav>
     </div>
@@ -154,7 +156,7 @@
     <h3 class="widget-title">Pano</h3>
     <div class="widget-body">
         <div id="board">
-            <div class="content"><p></p>
+            <div class="content"><p><a href="https://www.notion.so/e2d2788505b645328b1435a2f2c0d100?v=c3b83f446b304a78802848762a376932">Sayfa</a></p>
             </div>
         </div>
     </div>
@@ -204,7 +206,7 @@
             <li>
                 <div class="item-inner">
                     <p class="item-title">
-                        <a href="https://www.omerkurt.dev/04/2020/neden-zsh/" class="title">Neden Zsh</a>
+                        <a href="https://www.omerkurt.dev/04/2020/neden-zsh/" class="title">Neden Zsh Kullanıyorum?</a>
                     </p>
                     <p class="item-date">
                         <time datetime="2020-04-19 01:11:51 &#43;0300 &#43;03" itemprop="datePublished">19-04-2020</time>
@@ -283,59 +285,38 @@
       </div>
     </div>
     <div class="article-entry marked-body js-toc-content" itemprop="articleBody">
-      
-
-<p>Bu yazımda sizlere <a href="https://gohugo.io/" title="Hugo">Hugo</a> ile site kurmayı ve Github&rsquo;da yayınlamayı anlatacağım.</p>
-
+      <p>Bu yazımda sizlere <a href="https://gohugo.io/" title="Hugo">Hugo</a> ile site kurmayı ve Github&rsquo;da yayınlamayı anlatacağım.</p>
 <h1 id="hugo-kurulumu"><strong>Hugo Kurulumu</strong></h1>
-
 <p>Hugo&rsquo;yu <a href="https://gohugo.io/getting-started/installing/">kurmak</a> için bu dokümanı takip edebilirsiniz.</p>
-
 <h2 id="macos"><strong>macOS</strong></h2>
-
 <pre><code>brew install hugo
 </code></pre>
-
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe src="https://www.youtube.com/embed/WvhCGlLcrF8" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
 </div>
 
-
 <h2 id="linux"><strong>Linux</strong></h2>
-
 <h2 id="snap-ile-yüklemek"><strong>Snap İle Yüklemek</strong></h2>
-
 <pre><code>snap install hugo --channel=extended
 snap install hugo
 </code></pre>
-
 <h2 id="debian-ve-ubuntu"><strong>Debian ve Ubuntu</strong></h2>
-
 <pre><code>sudo apt-get install hugo
 </code></pre>
-
 <h2 id="fedora-red-hat-ve-centos"><strong>Fedora, Red Hat ve CentOS</strong></h2>
-
 <pre><code>sudo dnf install hugo
 </code></pre>
-
 <h1 id="site-oluşturmak"><strong>Site Oluşturmak</strong></h1>
-
 <p>Bilgisayarımıza Hugo&rsquo;yu kurduktan sonra aşağıdaki komutları kullanarak sitemizi oluşturabiliriz.</p>
-
 <pre><code>hugo new site hugo-site
 cd hugo-site
 </code></pre>
-
 <p>Artık sitemiz oluştu ama içinde şu an tema yok. Hadi şimdi tema indirelim. Tema indirmek için şu <a href="https://themes.gohugo.io/">linke</a> bakabilirsiniz. Temamızı seçtikten sonra şu komutları uygulayalım. Ben <a href="https://themes.gohugo.io/blackburn/">blackburn</a> seçtim.</p>
-
 <pre><code>git submodule add https://github.com/yoshiharuyamashita/blackburn.git themes/blackburn
 
 </code></pre>
-
 <p>Temamızı indirdikten sonra içinde bulunan exampleSite dizinine gidip config.toml belgesini kopyalayıp bizim config.toml yapıştıralım. Config belgemizin içindeki parametreleri <a href="https://gohugo.io/getting-started/quick-start/">düzenleyelim</a>. Configin içini böyle düzeltelim.</p>
-
 <pre><code>baseURL = &quot;https://&lt;github_username&gt;.github.io/&quot;
 languageCode = &quot;en-us&quot;
 title = &quot;Minimal&quot;
@@ -344,29 +325,19 @@ disqusShortname = &quot;username&quot; # delete this to disable disqus comments
 googleAnalytics = &quot;&quot;
 publishDir = &quot;&lt;github_username&gt;.github.io&quot;
 </code></pre>
-
 <p>Belgemizin içindeki publishDir HTML dosya yolunu gösterir.</p>
-
 <p>Bu arada draft: true olduğu sürece  postlarımız sitemizde gözükmez. Dizinimizin içinde &lsquo;archetypes&rsquo; dosyasına girip &lsquo;default.md&rsquo; belgesindeki draftı false yapabilirsiniz.</p>
-
-<h1 id="github-da-yayınlamak"><strong>Github&rsquo;da Yayınlamak</strong></h1>
-
+<h1 id="githubda-yayınlamak"><strong>Github&rsquo;da Yayınlamak</strong></h1>
 <p>2 tane Github reposu oluşturmak zorundayız çünkü Github doğrudan Hugo gibi frameworkleri desteklemiyor. Bir reponun adı hugo_site olsun, diğer reponun adı username.github.io</p>
-
 <p>Hadi sitemizin HTML kodlarını oluşturalım.</p>
-
 <p><code>Hugo</code></p>
-
 <p>Artık github_username.github.io adlı bir dosyamız oluştu.</p>
-
 <pre><code>git remote add origin git@github.com:&lt;github_username&gt;/hugo_site.git
 git add .
 git commit -m &quot;initial commit&quot;
 git push -u origin master
 </code></pre>
-
 <p>Son olarak diğer repomuzuda Github sayfamıza eşitleyelim.</p>
-
 <pre><code>cd &lt;github_username&gt;.github.io
 git remote -v
 &gt; origin git@github.com:&lt;github_username&gt;/&lt;github_username&gt;.github.io.git (fetch)
@@ -376,7 +347,6 @@ git add .
 git commit -m &quot;initial commit&quot;
 git push origin master
 </code></pre>
-
 <p>Şimdi github_username.github.io adlı repomuzun ayarlarına gidip sitemizi yayınlayalım. İşte bu kadar, eğer sorularınız bu gönderinin altına ya da diğer hesaplarımdan sorabilirsiniz.</p>
 
     </div>
@@ -422,7 +392,7 @@ git push origin master
             <i class="icon icon-twitter"></i></a></li>
 </ul>
   <div class="copyright">
-    &copy;2017  -
+    &copy;2020  -
     2020
     <div class="publishby">
         Theme by <a href="https://github.com/xiaoheiAh" target="_blank"> xiaoheiAh </a>base on<a href="https://github.com/xiaoheiAh/hugo-theme-pure" target="_blank"> pure</a>.
