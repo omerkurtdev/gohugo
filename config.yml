@@ -96,7 +96,7 @@ params:
     books: icon-book-fill
     links: icon-friendship
     about: icon-cup-fill
-    plan: fa-calendar.icon-calendar
+    plan: icon-calendar
 
   # profile
   profile:
