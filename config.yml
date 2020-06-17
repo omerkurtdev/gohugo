@@ -63,11 +63,11 @@ menu:
       url: /about/
       weight: 5
       
-    - identifier: plan
-      name: Yazı Planım
+    - identifier: calendar
+      name: calendar
       title: Yazı Planım
-      url: https://www.notion.so/e2d2788505b645328b1435a2f2c0d100?v=c3b83f446b304a78802848762a376932
-      weight: 5
+      url: https://www.notion.so/d7e0f85a1e244991af68ffcdf74fa81b?v=12e7a18b16d8484e9ba94bff11fa8d0c
+      weight: 6
 
 
 params:
@@ -96,7 +96,7 @@ params:
     books: icon-book-fill
     links: icon-friendship
     about: icon-cup-fill
-    plan: icon-calendar
+    calendar: icon-calendar-check
 
   # profile
   profile:
