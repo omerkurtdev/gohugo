@@ -5,7 +5,7 @@ draft: false
 ---
 
 
-Merhaba ben Ömer, şu an Kayseri'de yaşıyorum. Kayseri'de yaşadığım için Kayserili zannediyorlar, ama Kahramanmaraşlıyım. Özgür yazılım uygulamalarının aşırı meraklısıyım. Hoşuma giden bilgileri, yazıları paylaşmayı sevdiğim için ve bir bilişimci olarak tanımlarsam kendimi blog açma gereksinimi hissettim. Bazen bilgisayar başında bunalıp kafamı alıp kamp yapmaya gidiyorum. Kesinlikle siz de bunu yapmalısınız. 
+Merhaba ben Ömer, şu an Kayseri'de yaşıyorum ama Kahramanmaraşlıyım. Özgür yazılım uygulamalarının aşırı meraklısıyım. Hoşuma giden bilgileri, yazıları paylaşmayı sevdiğim için ve bir bilişimci olarak tanımlarsam kendimi blog açma gereksinimi hissettim. Bazen bilgisayar başında bunalıp kafamı alıp kamp yapmaya gidiyorum. Kesinlikle siz de bunu yapmalısınız. 
 
 ![kamp.jpg](/kamp.jpg)
 
