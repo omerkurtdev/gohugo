@@ -6,9 +6,8 @@ draft: false
 
 Merhaba burası benim bloğum.
 
-```shell
-
+```
 echo "omerkurt"
 if 
 fi
-````
+```
