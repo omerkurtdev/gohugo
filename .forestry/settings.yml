@@ -3,7 +3,12 @@ new_page_extension: md
 auto_deploy: false
 admin_path: 
 webhook_url: 
-sections: 
+sections:
+- type: document
+  path: content/posts
+  label: Posts
+  match: "**/*"
+  read_only: false
 upload_dir: uploads
 public_path: "/omerkurt.dev"
 front_matter_path: ''
@@ -13,6 +18,7 @@ build:
   preview_env:
   - HUGO_VERSION=0.59.1
   preview_output_directory: public
+  install_dependencies_command: npm install
   preview_docker_image: forestryio/hugo:node12
   mount_path: "/srv"
   working_dir: "/srv"
