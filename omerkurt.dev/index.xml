@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ömer Kurt</title>
@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sat, 18 Apr 2020 00:04:21 +0300</lastBuildDate>
     
-        <atom:link href="https://www.omerkurt.dev/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.omerkurt.dev/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -38,7 +38,7 @@ Herhangi bir Linux dağıtımlarından bahsettiğimiz zaman bu dağıtımlar Ubu
       <pubDate>Sat, 18 Apr 2020 00:04:21 +0300</pubDate>
       
       <guid>https://www.omerkurt.dev/about/</guid>
-      <description>Merhaba ben Ömer, şu an Kayseri&amp;rsquo;de yaşıyorum. Kayseri&amp;rsquo;de yaşadığım için Kayserili zannediyorlar, ama Kahramanmaraşlıyım. Özgür yazılım uygulamalarının aşırı meraklısıyım. Hoşuma giden bilgileri, yazıları paylaşmayı sevdiğim için ve bir bilişimci olarak tanımlarsam kendimi blog açma gereksinimi hissettim. Bazen bilgisayar başında bunalıp kafamı alıp kamp yapmaya gidiyorum. Kesinlikle siz de bunu yapmalısınız.
+      <description>Merhaba ben Ömer, şu an Kayseri&amp;rsquo;de yaşıyorum ama Kahramanmaraşlıyım. Özgür yazılım uygulamalarının aşırı meraklısıyım. Hoşuma giden bilgileri, yazıları paylaşmayı sevdiğim için ve bir bilişimci olarak tanımlarsam kendimi blog açma gereksinimi hissettim. Bazen bilgisayar başında bunalıp kafamı alıp kamp yapmaya gidiyorum. Kesinlikle siz de bunu yapmalısınız.
 Üniversite hayatım boyunca en sevdiğim şeylerden biriydi. Kafamı boşaltıp şu manzarayı izlemek, denizin tam karşısına kamp atmak, özellikle gece gelen dalgaların sesi o kadar iyi geliyordu ki.</description>
     </item>
     

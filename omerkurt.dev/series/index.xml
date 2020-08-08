@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Series on Ömer Kurt</title>
@@ -6,52 +6,8 @@
     <description>Recent content in Series on Ömer Kurt</description>
     <generator>Hugo -- gohugo.io</generator>
     
-        <atom:link href="https://www.omerkurt.dev/series/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.omerkurt.dev/series/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Neden Zsh Kullanıyorum?</title>
-      <link>https://www.omerkurt.dev/04/2020/neden-zsh/</link>
-      <pubDate>Sun, 19 Apr 2020 01:11:51 +0300</pubDate>
-      
-      <guid>https://www.omerkurt.dev/04/2020/neden-zsh/</guid>
-      <description>GNU/Linux işletim sistemi kullandıysanız Bash&amp;rsquo;in ne demek olduğunu aslında biliyorsunuz. Bash kabuğu GNU/Linux işletim sisteminde ve MacOS&amp;rsquo;te varsayılan olarak gelmekte. Bash&amp;rsquo;in açılımı ise &amp;ldquo;Bourne Again Shell&amp;quot;dir. En popüler kabuk yada komut dili yorumlayıcıları şunlardır:
- Bash Tcsh/Csh Ksh Zsh Fish  Benim favori kabuğumsa Zsh. Hatta bilgisayarıma format attığım zaman ilk kurduğum şeylerden biri kendisi. Oh My Zsh topluluğu harikalar yaratmış diyebilirim eklentileriyle, sadece eklenti değil temalarıyla da özelleştirebilirsiniz.
-Oh My Zsh indirmek için aşağıdaki komutu çalıştırabilirsiniz.</description>
-    </item>
-    
-    <item>
-      <title>Android Linux mu?</title>
-      <link>https://www.omerkurt.dev/04/2020/android-linux-mu/</link>
-      <pubDate>Sat, 18 Apr 2020 00:04:21 +0300</pubDate>
-      
-      <guid>https://www.omerkurt.dev/04/2020/android-linux-mu/</guid>
-      <description>Bu sorunun tam bir cevabı yok aslında, yazımdan da bahsedeceğim neden cevabı olmadığını. Birçok topluluk bu konu üzerinde çokça tartıştılar. Android&amp;rsquo;in bir Linux olup olmadığını anlamak için Linux&amp;rsquo;un ne olduğunu bilmeliyiz.
-Linux Nedir? İnsanlar, Linux&amp;rsquo;u birçok anlama gelebilecek şekilde kullanıyor aslında. Linux, Linux çekirdeği anlamına gelir. Linux çekirdeği ne demek, diye soranlarınız olacaktır. İşletim sistemlerinin en temel parçası olan çekirdek yazılımı olarak tanımlayabiliriz.
-Herhangi bir Linux dağıtımlarından bahsettiğimiz zaman bu dağıtımlar Ubuntu, Fedora, Debian gibi yine bu dağıtımlara Linux diyoruz.</description>
-    </item>
-    
-    <item>
-      <title>Hakkımda</title>
-      <link>https://www.omerkurt.dev/about/</link>
-      <pubDate>Sat, 18 Apr 2020 00:04:21 +0300</pubDate>
-      
-      <guid>https://www.omerkurt.dev/about/</guid>
-      <description>Merhaba ben Ömer, şu an Kayseri&amp;rsquo;de yaşıyorum. Kayseri&amp;rsquo;de yaşadığım için Kayserili zannediyorlar, ama Kahramanmaraşlıyım. Özgür yazılım uygulamalarının aşırı meraklısıyım. Hoşuma giden bilgileri, yazıları paylaşmayı sevdiğim için ve bir bilişimci olarak tanımlarsam kendimi blog açma gereksinimi hissettim. Bazen bilgisayar başında bunalıp kafamı alıp kamp yapmaya gidiyorum. Kesinlikle siz de bunu yapmalısınız.
-Üniversite hayatım boyunca en sevdiğim şeylerden biriydi. Kafamı boşaltıp şu manzarayı izlemek, denizin tam karşısına kamp atmak, özellikle gece gelen dalgaların sesi o kadar iyi geliyordu ki.</description>
-    </item>
-    
-    <item>
-      <title>Hugo ile Site Oluşturmak</title>
-      <link>https://www.omerkurt.dev/04/2020/hugo/</link>
-      <pubDate>Thu, 16 Apr 2020 21:21:35 +0300</pubDate>
-      
-      <guid>https://www.omerkurt.dev/04/2020/hugo/</guid>
-      <description>Bu yazımda sizlere Hugo ile site kurmayı ve Github&amp;rsquo;da yayınlamayı anlatacağım.
-Hugo Kurulumu Hugo&amp;rsquo;yu kurmak için bu dokümanı takip edebilirsiniz.
-macOS brew install hugo    Linux Snap İle Yüklemek snap install hugo --channel=extended snap install hugo  Debian ve Ubuntu sudo apt-get install hugo  Fedora, Red Hat ve CentOS sudo dnf install hugo  Site Oluşturmak Bilgisayarımıza Hugo&amp;rsquo;yu kurduktan sonra aşağıdaki komutları kullanarak sitemizi oluşturabiliriz.
-hugo new site hugo-site cd hugo-site  Artık sitemiz oluştu ama içinde şu an tema yok.</description>
-    </item>
     
   </channel>
 </rss>
