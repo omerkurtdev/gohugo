@@ -4,9 +4,12 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: document
-  path: content/posts
+- type: directory
+  path: content
   label: Posts
+  create: all
+  match: "**/*"
+  new_doc_ext: ".md"
 upload_dir: uploads
 public_path: "/omerkurt.dev"
 front_matter_path: ''
