@@ -12,7 +12,7 @@ file_template: ":filename:"
 build:
   preview_env:
   - HUGO_VERSION=0.59.1
-  preview_output_directory: omerkurt.dev
+  preview_output_directory: public
   install_dependencies_command: npm install
   preview_docker_image: forestryio/node:12
   mount_path: "/srv"
