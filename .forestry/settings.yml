@@ -14,7 +14,7 @@ build:
   - HUGO_VERSION=0.59.1
   preview_output_directory: omerkurt.dev
   install_dependencies_command: npm install
-  preview_docker_image: forestryio/hugo:node12
+  preview_docker_image: forestryio/hugo:latest
   mount_path: "/srv"
   working_dir: "/srv"
   instant_preview_command: npm run develop
