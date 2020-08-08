@@ -1,14 +1,12 @@
 ---
 new_page_extension: md
 auto_deploy: false
-admin_path: 
+admin_path: ''
 webhook_url: 
 sections:
 - type: document
   path: content/posts
   label: Posts
-  match: "**/*"
-  read_only: false
 upload_dir: uploads
 public_path: "/omerkurt.dev"
 front_matter_path: ''
