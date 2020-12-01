@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Ömer Kurt</title>
@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sun, 19 Apr 2020 01:11:51 +0300</lastBuildDate>
     
-	<atom:link href="https://www.omerkurt.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://www.omerkurt.dev/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -42,6 +42,15 @@ Herhangi bir Linux dağıtımlarından bahsettiğimiz zaman bu dağıtımlar Ubu
 Hugo Kurulumu Hugo&amp;rsquo;yu kurmak için bu dokümanı takip edebilirsiniz.
 macOS brew install hugo    Linux Snap İle Yüklemek snap install hugo --channel=extended snap install hugo  Debian ve Ubuntu sudo apt-get install hugo  Fedora, Red Hat ve CentOS sudo dnf install hugo  Site Oluşturmak Bilgisayarımıza Hugo&amp;rsquo;yu kurduktan sonra aşağıdaki komutları kullanarak sitemizi oluşturabiliriz.
 hugo new site hugo-site cd hugo-site  Artık sitemiz oluştu ama içinde şu an tema yok.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.omerkurt.dev/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.omerkurt.dev/about/</guid>
+      <description></description>
     </item>
     
   </channel>

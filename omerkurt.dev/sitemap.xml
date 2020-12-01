@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
@@ -11,6 +11,13 @@
   
   <url>
     <loc>https://www.omerkurt.dev/posts/</loc>
+    <lastmod>2020-04-19T01:11:51+03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.omerkurt.dev/</loc>
     <lastmod>2020-04-19T01:11:51+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -31,13 +38,6 @@
   </url>
   
   <url>
-    <loc>https://www.omerkurt.dev/about/</loc>
-    <lastmod>2020-04-18T00:04:21+03:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://www.omerkurt.dev/tags/linux/</loc>
     <lastmod>2020-04-18T00:04:21+03:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -46,13 +46,6 @@
   
   <url>
     <loc>https://www.omerkurt.dev/tags/</loc>
-    <lastmod>2020-04-18T00:04:21+03:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.omerkurt.dev/</loc>
     <lastmod>2020-04-18T00:04:21+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -84,6 +77,11 @@
     <lastmod>2020-04-16T21:21:35+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.omerkurt.dev/about/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
